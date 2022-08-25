@@ -27,7 +27,7 @@ function IncomeCalculator() {
 				</div>
 			</div>
 			<div className="border w-[94%] flex flex-col rounded-md rounded-tl-none shadow-md">
-				<Header />
+				<Header active={activeTab} />
 				<>
 					{activeTab === 'income' && <Income />}
 					{activeTab === 'income-details' && (
